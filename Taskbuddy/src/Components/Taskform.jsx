@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-export default function (addTask) {
-   let[task, setTask] = useState("");
+export default function Taskform({addTask}) {
+    let[task, setTask] = useState("");
     let[priority, setPriority] = useState("Medium");
     let[category, setCategory] = useState("General");
 

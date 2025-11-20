@@ -5,6 +5,7 @@ import ProgressTracker from './Components/ProgressTracker'
 
 export default function App() {
     const[tasks, setTasks] = useState([]);
+    
     const addTask = (task) => {
         setTasks(task);
     }
